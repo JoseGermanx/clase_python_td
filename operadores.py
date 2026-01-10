@@ -6,6 +6,11 @@ b = 3
 c = 5.5
 d = 2.0
 
+
+resultado1 = a + b
+print(resultado1)
+
+
 # Operadores aritméticos
 
 print(a + b) # suma -> 13
@@ -31,3 +36,5 @@ print(a <= b) # Menorque -> False
 print(a > b and c > d) # True
 print(a < b or c > d) # True
 print(not (a == b)) # True
+
+
