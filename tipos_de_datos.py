@@ -29,5 +29,3 @@ shopping_list = [1,"alberto", True, 6.7, direccion]
 # num1 = 4
 
 # print(num1)
-
-promedio.
