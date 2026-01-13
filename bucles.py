@@ -5,8 +5,8 @@
 
 estudiantes = ["Ana", "Luis", "Pedro", "Lucia", "Alexandra", "Diego", "Marcelo"]
 
-# for nombre in estudiantes:
-#     print(f"El nombre del estudiantes es: {nombre}")
+for nombre in estudiantes:
+    print(f"El nombre del estudiantes es: {nombre}")
 
 
 
