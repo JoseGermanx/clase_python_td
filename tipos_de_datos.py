@@ -22,10 +22,12 @@ shopping_list = [1,"alberto", True, 6.7, direccion]
 
 # print(type(promedio))
 
-num1 = 2
+# num1 = 2
 
-print(num1)
+# print(num1)
 
-num1 = 4
+# num1 = 4
 
-print(num1)
+# print(num1)
+
+promedio.
