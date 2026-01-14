@@ -10,6 +10,26 @@
 productos_en_stock = ["iphone 15", "lavadora", "teclado"]
 categorias = ["electrodomestico", "telefono", "accesorio"]
 
+producto_1 = {
+    "nombre": "iphone 15",
+    "categoria": "telefono",
+    "stock": 100
+}
+
+list_products = [{
+    "nombre": "iphone 15",
+    "categoria": "telefono",
+    "stock": 100
+}, {
+    "nombre": "iphone 15",
+    "categoria": "telefono",
+    "stock": 100
+}]
+
+
+
+
+
 producto = input("Indique un producto: ")
 
 
