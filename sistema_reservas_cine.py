@@ -55,6 +55,7 @@ while True:
         precio_pelicula = cantidad_de_boletos * catelera[pelicula_seleccionada]["precio"]
 
         reserva_realizada.append({
+            "id": "Este valor se debe generar de manera dinámica ---> random",
             "pelicula": pelicula_seleccionada,
             "cantidad": cantidad_de_boletos,
             "total": precio_pelicula
