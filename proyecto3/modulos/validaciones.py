@@ -6,6 +6,12 @@ def leer_float(texto):
         except ValueError:
             print("Error: Ingrese un valor válido!!")
 
+def leer_int(texto):
+    while True:
+        try:
+            return int(input(texto))
+        except ValueError:
+            print("Error: Ingrese un entero")
 
 def clasificar_temperaturas(temperatura):
     if temperatura < 5:
@@ -19,3 +25,8 @@ def clasificar_temperaturas(temperatura):
     else:
         return "Extremo"
 
+def clasificar_edad(edad):
+    if edad > 60:
+        return "Adulto mayor"
+    else:
+        return "No es adulto mayor"

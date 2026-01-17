@@ -8,10 +8,16 @@
 # Extremo: t ≥ 35
 # Gestionar errores si el usuario ingresa un valor no numérico.
 # Separar la lógica en módulos de validación.
-from modulos.validaciones import leer_float, clasificar_temperaturas
+from modulos.validaciones import leer_float, clasificar_temperaturas, leer_int, clasificar_edad
 
 temp_input = leer_float("Ingresa la temperatura en C: ")
 
 temperatura = clasificar_temperaturas(temp_input)
 
-print(f"Es estado actual de cliente es: {temperatura}")
+print(f"Es estado actual del clima es: {temperatura}")
+
+edad_input = leer_int("Ingrese la edad de la persona: ")
+
+resultado_edad = clasificar_edad(edad_input)
+
+print(f"Resultado de la evaluación: {resultado_edad}")
